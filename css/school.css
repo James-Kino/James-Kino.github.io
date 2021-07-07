@@ -1,0 +1,107 @@
+body{
+    margin: 0%;
+}
+
+#back{
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#backtoindex{
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 50px;
+    top: 31px;
+}
+
+#backbot{
+    display:inline-block;  
+    width:0;  
+    height:0;  
+    border-top: 20px solid transparent;  
+    border-right: 20px solid rgb(0, 204, 255);  
+    border-bottom: 20px solid transparent;
+}
+
+#backbot::after{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 22px;
+    border-top: 20px solid transparent;
+    border-right: 20px solid rgb(0, 255, 242);
+    border-bottom: 20px solid transparent;
+}
+
+#pics{
+    width: 224px;
+    float: left;
+}
+
+ul{
+    margin: 40px auto 40px 100px;
+    list-style: none;
+}
+
+li{
+    width: 224px;
+    height: 152px;
+}
+
+#tip1{
+    width: 104px;
+    height: 28px;
+    border: 2px solid rgb(0, 204, 255);
+    border-radius: 15px;
+    margin: 30px auto auto 624px;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgb(0, 255, 242);
+    padding: 4px;
+    text-align: center;
+}
+
+#info{
+    width: 800px;
+    height: auto;
+    font-size: 18px;
+    line-height: 30px;
+    text-indent: 2em;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin: 15px 100px auto auto;
+    padding: 4px;
+}
+
+#tip2{
+    width: 104px;
+    height: 28px;
+    border: 2px solid rgb(0, 204, 255);
+    border-radius: 15px;
+    margin: 30px auto auto 624px;
+    font-size: 24px;
+    line-height: 24px;
+    color: rgb(0, 255, 242);
+    padding: 4px;
+    text-align: center;
+}
+
+#feel{
+    width: 800px;
+    height: auto;
+    font-size: 18px;
+    line-height: 30px;
+    text-indent: 2em;
+    color: white;
+    border: 1px solid #fff;
+    border-radius: 15px;
+    margin: 15px 100px auto auto;
+    padding: 4px;
+
+}

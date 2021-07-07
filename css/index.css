@@ -1,0 +1,186 @@
+body{
+    size: 100%;
+    background-image: url("../image/bgimage.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+    color: #fff;
+}
+
+#header{
+    height: 50px;
+    width: 1520px;
+    margin: 0 auto;
+}
+
+#welcome{
+    line-height: 100%;
+    font-size: 30px;
+    color: #fff;
+    margin-left: 40px;
+    margin-top: 20px;
+    position: fixed;
+    float: left;
+}
+
+#sign{
+    line-height: 25px;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #fff;
+    margin-left: 1370px;
+    margin-top: 30px;
+    position: fixed;
+    float: left;
+    background-color: rgb(230, 227, 227,0.3);
+    border:1px solid;
+    border-radius:10px;
+    border-color: #fff;
+}
+
+#sign:hover{
+    background-color: rgba(78, 78, 78, 0.3);
+}
+
+#main{
+    width: 1520px;
+    height: 600px;
+    margin-top: 50px;
+}
+
+#information{
+    width: 500px;
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: auto;
+    margin-left: 60px;
+    background-color: rgb(230, 227, 227,0.3);
+    border:1px solid;
+    border-radius:10px;
+    border-color: #fff;
+    border-spacing: 10px;
+    position: fixed;
+}
+
+#information:hover{
+    background-color: rgba(78, 78, 78, 0.3);
+}
+
+#faceimg{
+    width: 80px;
+    height: auto;
+    border:2px solid;
+    border-radius:15px;
+    border-color: #fff;
+    margin-left: 209px;
+    margin-right: 209px;
+}
+
+td{
+    height: 30px;
+    width: 50%;
+    font-size: 15px;
+}
+
+td:first-child{
+    text-align: right;
+    width: 150px;
+}
+
+#school{
+    width: 700px;
+    height: auto;
+    border:1px solid;
+    border-radius:15px;
+    border-color: #fff;
+    background-color: rgba(230, 227, 227, 0.3);
+    margin-right: 60px;
+    margin-top: 60px;
+    margin-left: 756px;
+    position: fixed;
+}
+
+#school:hover{
+    background-color: rgba(78, 78, 78, 0.3);
+}
+
+#mschool{
+    width: 700px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+#mschoolimg{
+    width: 280px;
+    height: 190px;
+    border:1px solid;
+    border-radius:15px;
+    border-color: rgb(255, 255, 255);
+    margin: 4px;
+    float: left;
+}
+
+#tip{
+    font-size: 10px;
+    color:#fff;
+    width: 60px;
+    height: 20px;
+    margin: 8px 4px 4px 300px;
+    background-color: aqua;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #fff;
+    text-align: center;
+}
+
+#tip:first-child{
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+#mschoolinf{
+    margin: 10px 4px 4px 300px;
+    font-size: 15px;
+    line-height: 20px;
+}
+
+#collegeimg{
+    width: 280px;
+    height: 190px;
+    border:1px solid;
+    border-radius:15px;
+    border-color: rgb(255, 255, 255);
+    margin-top: -20px;
+    margin-right: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    float: right;
+    overflow: hidden;
+}
+
+#collegeinf{
+    width: 390px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    line-height: 20px;
+    float: left;
+    overflow: hidden;
+}
+
+a:link{
+    color: #fff;
+}
+a:hover{
+    color: aliceblue;
+}
+a:active{
+    color: aqua;
+}
+a:visited{
+    color:azure;
+}
+a{
+    text-decoration: none;
+}

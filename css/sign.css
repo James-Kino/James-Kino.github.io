@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../image/signbg.jpg");
+    background-size: cover;
+    margin: 0%;
+}
+
+#back{
+    width: auto;
+    height: auto;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+
+#backtoindex{
+    font-size: 18px;
+    line-height: 18px;
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    left: 50px;
+    top: 31px;
+}
+
+#backbot{
+    display:inline-block;  
+    width:0;  
+    height:0;  
+    border-top: 20px solid transparent;  
+    border-right: 20px solid rgb(0, 204, 255);  
+    border-bottom: 20px solid transparent;
+}
+
+#backbot::after{
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 22px;
+    border-top: 20px solid transparent;
+    border-right: 20px solid rgb(0, 255, 242);
+    border-bottom: 20px solid transparent;
+}
+
+#title{
+    margin-top: 30px;
+}
+
+#welcome{
+    margin-left: 725px;
+    color: #fff;
+    font-size: 40px;
+    font-family: fantasy;
+}
+
+form{
+    width: 500px;
+    height: auto;
+    border:2px solid;
+    border-radius:15px;
+    border-color: #fff;
+    background-color: rgb(255,255,255,0.8);
+    margin-top: 30px;
+    margin-left: 550px;
+}
+
+table{
+    margin: 10px;
+}
+
+a:link{
+    color: #fff;
+}
+a:hover{
+    color: aliceblue;
+}
+a:active{
+    color: aqua;
+}
+a:visited{
+    color:azure;
+}
+a{
+    text-decoration: none;
+}
